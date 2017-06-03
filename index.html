@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minimum Display Area Image Selection Example</title>
+  <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+  <div id="content">
+    <div class="container">
+      <h1>Drag Mouse On The Image</h1>
+        <div class="wrapper">
+          <div class="image-container">
+            <img src="images/445823.jpg" id="target" style="display:none">
+          </div>
+        </div>
+        <p>Image Credits: <a href="https://wall.alphacoders.com/by_sub_category.php?id=124044" target="_blank">Alpha Coders Website</a></p>
+    </div>
+  </div>
+
+  <script src="lib/fabric.min.js"></script>
+  <script src="js/mda.js"></script>
+
+  <script type="text/javascript">
+    var mda = new MDA('#target',{
+      //options goes here
+      maxWidth: 700,
+      //maxHeight: null,
+      selectionFill: '#ffa500 '
+    });
+  </script>
+</body>
+</html>

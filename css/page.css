@@ -1,0 +1,23 @@
+#content {
+  width: 700px;
+  margin: auto;
+}
+
+.image-container {
+  display: inline-block;
+  max-width: 100%;
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #e2e2e2;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.image-container.target {
+  margin-top: 20px;
+}
